@@ -1,0 +1,112 @@
+		h1 {
+			color:black; 
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 24px;
+			font-style:bold;
+			}
+		
+		h2 {
+			color:black;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+			font-style:bold;
+			}
+
+		h3 {
+			color:black;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 18px;
+			font-style:bold;
+			}
+		
+		p{
+			color:black;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 16px;
+			font-style:normal;
+			}
+
+		ul {
+			list-style-type: none;
+			margin: 0; 
+			padding:0;
+			overflow: hidden;
+			background-color: #333;
+			}
+		
+		li {
+			float:left;
+			}
+
+		.journal {
+			-webkit-column-count: 3; /* Chrome, Safari, Opera */
+			-moz-column-count: 3; /* Firefox */
+				column-count: 3;
+
+			-webkit-column-gap:40px;
+			-moz-column-gap: 40px;
+				column-gap : 40px ;
+
+			-webkit-column-rule-style : solid ;
+			-moz-column-rule-style : solid ;
+				column-rule-style : solid ;
+
+			-webkit-column-rule-width : 1px ;
+			-moz-column-rule-width : 1px ;
+				column-rule-width : 1px ;
+
+			-webkit-column-rule-color : lightblue ;
+			-moz-column-rule-color : lightblue ;
+				column-rule-color : lightblue ;
+		}
+
+
+
+		li a {
+			display: block;
+			text-align: center;
+			padding:14px 16px;
+			text-decoration:none;
+			color: white;
+			}
+
+
+		li a:hover {
+			background-color: #4CAF50;
+		}
+
+		div.header {
+			background-color: gray;
+			color: white;
+			padding: 10px;
+			font-size: 40px;
+			}
+
+		div.container {
+			padding: 10px;
+
+			}
+
+		div.card {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+			0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			text-align: center;
+			}
+
+			header.masthead {
+			position:relative;
+			background-color: #343a40;
+			background: url("../img/aulas.jpg") no-repeat center center;
+
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+			padding-top:12rem;
+			padding-bottom:12rem;
+			}
+
+		img {
+			max-width:100%;
+			}
