@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cáculo de Consumo de Combustível</title>
+</head>
+<body>
+        <h3>Álcool ou Gasolina?</h3>
+<script>
+let tanque= 40
+let caminhoComGasolina= 480
+let caminhoComAlcool= 300
+let consumoDeAlcool= caminhoComAlcool/tanque
+let consumoDeGasolina= caminhoComGasolina/tanque
+let precoDaGasolina= parseFloat(prompt("Qual o preço do litro da Gasolina?"))
+let precoDoAlcool= parseFloat(prompt("Qual o preço do litro do Álcool?"))
+let precoPorKilometroDaGasolina= precoDaGasolina/consumoDeGasolina
+let precoPorKilometroDoAlcool= precoDoAlcool/consumoDeAlcool
+document.write ("O consumo de gasolina é:" +consumoDeGasolina.toFixed(2)  + "km/litro <br>");
+
+document.write ("O consumo de alcool é:" +consumoDeAlcool.toFixed(2)   + "km/litro <br>");
+
+document.write ("O preço por Kilômetro da Gasolina é R$ " + precoPorKilometroDaGasolina.toFixed(2) + "<br>");
+
+document.write ("O preço por Kilômetro do Alcool é R$ " + precoPorKilometroDoAlcool.toFixed(2)  + "<br>");
+
+
+
+</script>
+
+
+</body>
+</html>

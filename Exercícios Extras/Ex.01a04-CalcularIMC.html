@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Qual é o seu IMC?</title>
+</head>
+<body>
+    <script>
+        var pularLinha = function() {
+        document.write ("<br><hr><br>");
+    };
+    
+    var mostrar = function(frase) {
+        document.write ("<big>"+frase+"</big>");
+        pularLinha();
+    };
+   
+   
+    var calculaIMC = function(altura, peso) {
+    var imc = peso / (altura * altura);
+    return Math.round(imc);
+    };
+    var alturaDoUsuario = prompt("Qual é a sua altura?");
+    var pesoDoUsuario = prompt("E o seu peso?");
+    var imcDoUsuario = calculaIMC(alturaDoUsuario, pesoDoUsuario);
+    mostrar("O seu imc é " + imcDoUsuario);
+   
+</script>
+
+
+
+</body>
+</html>
