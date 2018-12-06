@@ -1,0 +1,33 @@
+/*
+Theme Name: Hello World
+Theme URI: https://desprograme.com.br
+Author: Desprograme
+Author URI: https://desprograme.com.br
+Description: primeiro site em WordPress
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: lunanie, wordpress, programação
+Text Domain:  Hello World
+
+*/
+
+
+header{
+    background-color: red;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+section{
+    background-color: blue;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+
+footer{
+    background-color: green;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
